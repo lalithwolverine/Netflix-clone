@@ -1,21 +1,20 @@
-* {
+
+ 
+
+*{
   margin: 0;
   padding: 0;
 }
 
 .main {
   background-image: url("/assets/images/bgimage.jpg");
-  height: 80vh;
+  height: 105vh;
   background-size: cover;
   position: relative;
 }
 
-.main .box {
+body{
   background-color: black;
-  height: 80vh;
-  width: 100%;
-  position: absolute;
-  opacity: 0.46;
 }
 
 nav {
@@ -39,9 +38,14 @@ nav {
 .english,
 .signin {
   margin-left: 10px; 
+  border: none;
+  border-radius: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .signin {
   background-color: red;
+  border: none;
+  border-radius: 10px;
 }
 
 button {
@@ -54,4 +58,56 @@ button {
     font-size: x-large;
     font-weight: bolder;
     position: absolute;
+    color: aliceblue;
+    align-items: center;
 }
+
+.subhead{
+  color: aliceblue;
+  font-size: large;
+}
+
+.hero{
+ font-family: 'Martel Sans', sans-serif;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  color: aliceblue;
+  gap: 23px;
+}
+
+.hero> :nth-child(1){
+  font-family: 'Martel Sans', sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+  text-align: center;
+}
+
+.hero> :nth-child(2){
+  font-family: 'Martel Sans', sans-serif;
+    font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+
+.hero> :nth-child(3){
+  font-family: 'Martel Sans', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+
+.email{
+  color: black;
+  fill: none;
+}
+
+.seperation{
+  color: grey;
+  height: 11px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@800&display=swap')
